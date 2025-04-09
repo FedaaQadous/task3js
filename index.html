@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Fake Store</title>
+  <link rel="stylesheet" href="./assets/css/main.css">
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+  <div class="header">
+    <h1>Fake Store</h1>
+    <button id="mode-toggle">The Mode</button>
+  </div>
+
+  <div id="loader">Loading...</div>
+
+  <div id="categories" class="categories"></div>
+
+  <div id="products" class="products"></div>
+
+  <div id="pagination" class="pagination"></div>
+
+  <!-- مودل-->
+  <div id="image-modal" class="modal">
+    <span class="close" id="close-modal">&times;</span>
+    <img class="modal-content" id="modal-img">
+    <a class="prev" id="prev">&#10094;</a>
+    <a class="next" id="next">&#10095;</a>
+  </div>
+
+  <script src="./assets/js/script.js"></script>
+</body>
+</html>
